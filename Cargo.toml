@@ -1,0 +1,8 @@
+[package]
+name = "x11_statusbar_text"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+x11 = { version = "2.19.1", features = ["xlib", "xinerama"] }
+chrono = "0.4.19"
